@@ -1,11 +1,7 @@
-using Blog.Data;
-using Blog.Repositories.Implementations;
-using Blog.Repositories.UnitOfWork;
-using Blog.Services.Implementations;
-using Blog.Services.Interfaces;
-using Blog.Services.Mapping;
 using Microsoft.EntityFrameworkCore;
-using UserMicrosservice.Repositories;
+using UserMicrosservice.Application;
+using UserMicrosservice.Domain;
+using UserMicrosservice.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -24,6 +20,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IUserDomainService, UserDomainService>();
 
 builder.Services.AddAutoMapper(typeof(MappingProfile));
 

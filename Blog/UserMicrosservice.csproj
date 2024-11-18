@@ -18,7 +18,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Mapping\" />
+    <ProjectReference Include="..\UserMicrosservice.Application\UserMicrosservice.Application.csproj" />
+    <ProjectReference Include="..\UserMicrosservice.Infrastructure\UserMicrosservice.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
   </ItemGroup>
 
 </Project>

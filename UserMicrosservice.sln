@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserMicrosservice", "Blog\UserMicrosservice.csproj", "{C624A655-3264-47DC-9B0F-BE7231D4A790}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserMicrosservice", "Blog\UserMicrosservice.csproj", "{C624A655-3264-47DC-9B0F-BE7231D4A790}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserServiceTests", "UserServiceTests\UserServiceTests.csproj", "{CCE0952B-11C6-4E1A-97F2-F63E6B46FC02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserServiceTests", "UserServiceTests\UserServiceTests.csproj", "{CCE0952B-11C6-4E1A-97F2-F63E6B46FC02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserMicrosservice.Domain", "UserMicrosservice.Domain\UserMicrosservice.Domain.csproj", "{6099447F-7D3C-4CB8-9730-157959604462}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserMicrosservice.Infrastructure", "UserMicrosservice.Infrastructure\UserMicrosservice.Infrastructure.csproj", "{75B9A643-1A49-4532-9CDC-38CF669708D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserMicrosservice.Application", "UserMicrosservice.Application\UserMicrosservice.Application.csproj", "{4BAC0F95-024F-4A75-84FB-4B07A5F7AE7C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{CCE0952B-11C6-4E1A-97F2-F63E6B46FC02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCE0952B-11C6-4E1A-97F2-F63E6B46FC02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCE0952B-11C6-4E1A-97F2-F63E6B46FC02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6099447F-7D3C-4CB8-9730-157959604462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6099447F-7D3C-4CB8-9730-157959604462}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6099447F-7D3C-4CB8-9730-157959604462}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6099447F-7D3C-4CB8-9730-157959604462}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75B9A643-1A49-4532-9CDC-38CF669708D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75B9A643-1A49-4532-9CDC-38CF669708D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75B9A643-1A49-4532-9CDC-38CF669708D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75B9A643-1A49-4532-9CDC-38CF669708D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BAC0F95-024F-4A75-84FB-4B07A5F7AE7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BAC0F95-024F-4A75-84FB-4B07A5F7AE7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BAC0F95-024F-4A75-84FB-4B07A5F7AE7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BAC0F95-024F-4A75-84FB-4B07A5F7AE7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

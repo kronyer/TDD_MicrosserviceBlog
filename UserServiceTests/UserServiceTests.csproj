@@ -20,6 +20,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Blog\UserMicrosservice.csproj" />
+    <ProjectReference Include="..\UserMicrosservice.Application\UserMicrosservice.Application.csproj" />
   </ItemGroup>
 
   <ItemGroup>
